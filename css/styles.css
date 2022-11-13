@@ -40,10 +40,14 @@ body {
     border: 4px solid white;
 }
 
-.container .my-card .info span.name, .container .my-card .info span.age {
+.container .my-card .info h3.name, .container .my-card .info span.age {
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 700;
     font-size: 22px;
+}
+
+.container .my-card .info h3.name {
+    display: inline-block;
 }
 
 .container .my-card .info p {
