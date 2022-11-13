@@ -2,8 +2,8 @@ body {
     font-size: 18px;
     background-color: hsl(185, 75%, 39%);
     background-image: url('./../images/bg-pattern-top.svg'), url('./../images/bg-pattern-bottom.svg');
-    background-position: -73vh -32vh, 18vh 39vh;
     background-repeat: no-repeat;
+    background-position: 145% -217%, -47% 282%;
 }
 
 .container {
@@ -88,6 +88,6 @@ body {
 @media (min-width: 768px) {
     
    body {
-    background-position: -25vh -27vh, 57vh 49vh;
+    background-position: -10% -200%, 110% 282%;
    }
 }
